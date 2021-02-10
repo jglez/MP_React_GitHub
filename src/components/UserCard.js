@@ -22,7 +22,7 @@ const UserCard = () => {
   return (
     <div className='card'>
       <h1>GitHub User Card</h1>
-      <img src={user.avatar_url} alt='' />
+      <img src={user.avatar_url} alt='avatar' />
 
       <div className='card-text'>
         <p><b>Name:</b> {user.name}</p>
