@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,3 +48,43 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* General Styles */
+body {
+  background-color: #FCEE09;
+  display: flex;
+  justify-content: center;
+  font-family: Tomorrow;
+}
+
+/* Card Styles */
+.card {
+  text-align: center;
+  color: #0A0307;
+  border: 1px solid #0A0307;
+  padding: 2rem;
+  margin-top: 50%;
+}
+
+.card h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-text {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.card-text p {
+  /* box-shadow: 1px 1px 3px black; */
+  box-shadow: -1px -1px 
+}
+
+.card-text b {
+  font-weight: bold;
+}
+

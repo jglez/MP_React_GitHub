@@ -20,12 +20,15 @@ const UserCard = () => {
 
 
   return (
-    <div>
+    <div className='card'>
       <h1>GitHub User Card</h1>
       <img src={user.avatar_url} alt='' />
-      <h2><b>Name:</b> {user.name}</h2>
-      <h2><b>Location:</b> {user.location}</h2>
-      <p><b>Bio:</b> {user.bio}</p>
+
+      <div className='card-text'>
+        <p><b>Name:</b> {user.name}</p>
+        <p><b>Handle:</b> {user.login}</p>
+        <p><b>Location:</b> {user.location}</p>
+      </div>
     </div>
   )
 }
