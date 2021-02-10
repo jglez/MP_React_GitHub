@@ -1,10 +1,11 @@
 import './App.css';
+import UserCard from './components/UserCard'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>GitHub User Card</h1>
+        <UserCard />
       </header>
     </div>
   );
